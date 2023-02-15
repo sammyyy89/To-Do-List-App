@@ -1,7 +1,7 @@
 // Handle API
 import axios from 'axios' // JS library used to make HTTP requests from Node.js (to communicate with the backend)
 
-const baseUrl = "http://localhost:3001"
+const baseUrl = "https://to-do-list-app-k4fw.onrender.com" // "http://localhost:3001"
 
 const getAllToDos = (setToDo) => {
     axios
